@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background: radial-gradient(circle at 18.7% 37.8%, rgba(250, 250, 250, 0.052) 0%, rgba(225, 234, 238, 0.045) 90%);
+    border: 2px solid wheat;
+    backdrop-filter: blur(1px);
+    
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 2rem;
+    padding: 20px 0 0;
+    color: #f6bd60;
+}
+
+.lower {
+    margin: 30px 0;
+}
+.inp{
+    display: flex;
+    border: 2px solid wheat;
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 90%;
+    position: relative;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.56);outline: none;
+}
+.u{
+    position: relative;
+    left: 15px;
+    top: 9px;
+    width: 30px;
+}
+::-webkit-input-placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(27, 28, 30);
+    outline: none;
+    /* color: aliceblue; */
+
+}
+.input{
+    
+    position: relative;
+    left: 20px;
+    height: 5vh;
+    width: 20vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    /* border: 2px solid green; */
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+.btn input{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: rgba(240, 248, 255, 0.389);
+    outline: none;
+    border: none;
+}
+.bttn:hover{
+    background-color: rgba(0, 0, 0, 0.845);
+    color: wheat;
+    transition: 0.3s;
+}
+
+
+.lat label input{
+    position: relative;
+    top: 1px;
+}
+.lat label{
+    cursor: pointer;
+}
+.re:hover{
+    color: black;
+    transition: 0.5s;
+}
+.lat{
+    display: flex;
+    height: 8vh;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: baseline;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    
+}
+.lat a{
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-decoration: none;
+    color: wheat;
+    font-weight: 500;
+    
+}
+.fp:hover{
+    color: black;
+    transition: 0.5s;
+}
